@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: grid;
+  grid-template-rows: 1fr 2fr;
+   
+}
+div{
+  border: 1px solid rgb(82, 67, 148);
+}
+h3{
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+div:nth-child(2){
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+section{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section:nth-child(2)> img{
+    margin: 20px;
+    cursor: pointer;
+}
